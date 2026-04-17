@@ -3,7 +3,7 @@ import { lintText } from './linter';
 import { buildRepairPlan } from './reconciler';
 import { DEFAULT_SETTINGS, WikilinkLinterSettings, parseSkipWords } from './settings';
 import RepairModal from './ui/RepairModal';
-import WikilinkLinterSettingsTab from './ui/SettingsTab';
+import WikilinkLinterSettingsTab from './ui/settingstab';
 
 export default class WikilinkLinterPlugin extends Plugin {
   settings: WikilinkLinterSettings;
