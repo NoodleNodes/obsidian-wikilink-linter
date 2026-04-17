@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-wikilink-linter",
+  "version": "1.1.0",
+  "description": "Adds title-case display aliases to kebab-case wikilinks, and repairs broken links after external renames.",
+  "main": "main.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "tsc -noEmit -skipLibCheck && node scripts/build.js production",
+    "build-fast": "node scripts/build.js production",
+    "test": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "22.12.0",
+    "@vitest/coverage-v8": "3.0.4",
+    "esbuild": "0.24.2",
+    "obsidian": "1.7.2",
+    "typescript": "5.7.3",
+    "vitest": "3.0.4"
+  },
+  "packageManager": "npm@11.8.0"
+}

@@ -1,0 +1,76 @@
+.wl-repair-modal .modal-content {
+  max-width: 680px;
+  max-height: 75vh;
+  overflow-y: auto;
+}
+
+.wl-section {
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+  font-weight: 600;
+}
+
+.wl-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+}
+
+.wl-list li {
+  padding: 0.3em 0;
+  border-bottom: 1px solid var(--background-modifier-border);
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2em;
+}
+
+.wl-original {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.wl-arrow {
+  color: var(--text-faint);
+}
+
+.wl-result {
+  font-size: 0.85em;
+}
+
+.wl-candidates {
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.wl-source {
+  color: var(--text-faint);
+  font-size: 0.8em;
+  margin-left: auto;
+}
+
+.wl-footnote {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  margin: 0.4em 0 0.8em 0;
+}
+
+.wl-summary-line {
+  margin: 0.6em 0;
+  font-size: 0.95em;
+}
+
+.wl-empty {
+  color: var(--text-muted);
+}
+
+.wl-button-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+  margin-top: 1.4em;
+  padding-top: 0.8em;
+  border-top: 1px solid var(--background-modifier-border);
+}
